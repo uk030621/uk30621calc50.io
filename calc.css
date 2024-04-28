@@ -34,6 +34,33 @@ body{
     padding: 25px;
 }
 
+.taxCalc{
+    display: block;
+    padding-left: 10px;
+    background-color: hsl(35, 100%, 55%);
+    color: black; 
+    margin-top: 25px;
+    border-radius: 5px;
+    width: 100px;
+    font-size: 12px;
+    text-align: left;
+    text-decoration: none;
+}
+
+.taxCalc:hover{
+    background-color: hsl(35, 100%, 65%);
+    color: black; 
+}
+
+.taxCalc:active{
+    background-color: hsl(35, 100%, 75%);
+    color: black; 
+}
+
+.web1{
+    text-decoration-line: none;
+}
+
 button{
     width: 80px; /* Adjusted width for mobile screens */
     height: 80px; /* Adjusted height for mobile screens */
@@ -48,6 +75,18 @@ button{
 
 .exit-Btn{
     font-size: 12px;
+    background-color: hsl(35, 100%, 55%);
+    color: black;
+}
+
+.exit-Btn:hover{
+    background-color: hsl(35, 100%, 65%);
+    color: black;  
+}
+
+.exit-Btn:active{
+    background-color: hsl(35, 100%, 75%); 
+    color: black; 
 }
 
 button:hover{
@@ -60,14 +99,17 @@ button:active{
 
 .operator-Btn{
     background-color: hsl(35, 100%, 55%);
+    color: black;
 }
 
 .operator-Btn:hover{
     background-color: hsl(35, 100%, 65%);
+    color: black;
 }
 
 .operator-Btn:active{
     background-color: hsl(35, 100%, 75%);
+    color: black;
 }
 
 #datetime{
