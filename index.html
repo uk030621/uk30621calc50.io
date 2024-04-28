@@ -10,7 +10,7 @@
 </head>
 <body>
    <div id="calculator">
-    <div id="date"></div> <!-- New div for displaying date -->
+    <div id="datetime"></div> <!-- New div for displaying date -->
     <div>
         <!--<img class = "boys" src = "DylanJake.jpg">-->
         <p class="name">Dan Jap's Personal Calculator</p>
@@ -37,10 +37,19 @@
             <button onclick = "clearDisplay()" class = "operator-Btn">C</button>
             <button onclick="appendToDisplay('(')">(</button>
             <button onclick="appendToDisplay(')')">)</button>
+            <button id="closeButton" class = "operator-Btn">Exit</button>
         </div>    
    </div>
    
    <script src="calc.js"></script>
+   <script>
+    const closeButton = document.getElementById('closeButton');
+
+    closeButton.addEventListener('click', function() {
+        // Close the current window
+        window.close();
+    });
+</script>
    
 </body>
 </html>
