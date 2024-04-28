@@ -12,7 +12,7 @@ body{
     background-color: hsl(0, 0%, 15%);
     border-radius: 15px;
     width: 90%; /* Adjusted width for mobile screens */
-    max-width: 500px;
+    max-width: 100%; /* Updated to 100% to fit mobile screens */
     overflow: hidden;
 }
 
@@ -90,6 +90,5 @@ button:active{
 @media (max-width: 768px) {
     #calculator {
         width: 90%; /* Adjust as needed for smaller screens */
-        max-width: none; /* Remove max-width to allow full width on smaller screens */
     }
 }
